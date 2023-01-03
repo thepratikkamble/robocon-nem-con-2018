@@ -1,5 +1,3 @@
-Autonomous bot based on Vietnamese theme for ABU Robocon 2018: https://youtu.be/GAjVA2u-_1s.
-
 Bot used a Camera (PS3 Eye) and OpenCV to detect the line.
 Camera was connected to laptop. Laptop did all the heavy task of Image Processing and Data extraction. Once we get the info about line and position of robot then these values were passed to Nanpy whose task was to send those values from python code to Arduino Uno attach to that Laptop. Then this Uno was connected to our main Controller board which was an Arduino Mega with I2C.
 
